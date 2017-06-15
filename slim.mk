@@ -2,9 +2,9 @@
 $(call inherit-product, device/asus/Z00ED/full_Z00ED.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_Z00ED
+PRODUCT_NAME := slim_Z00ED
 PRODUCT_DEVICE := Z00ED
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone 2 Laser
